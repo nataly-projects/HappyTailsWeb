@@ -1,0 +1,24 @@
+.adoption-form {
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 30px;
+    }
+    
+    li {
+        list-style: disc;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+    }
+}
+

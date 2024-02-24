@@ -1,0 +1,15 @@
+.pet-profile-card {
+    .additional-photos {
+        display: flex;
+        overflow-x: scroll;
+        padding: 10px;
+        gap: 20px;
+    
+        .additional-photo {
+          width: 120px;
+          height: auto;
+        }
+    }
+
+}
+

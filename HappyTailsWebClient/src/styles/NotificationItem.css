@@ -1,0 +1,48 @@
+
+.notification-item {
+    width: 70%;
+    border: 1px solid #795B4A;
+    background-color: #F8F4EF;
+    color: #795B4A;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 8px;
+
+    .notification-header {
+      font-size: 20px;
+      margin-bottom: 8px;
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+  
+      h3 {
+          padding-left: 10px;
+      }
+    }
+    
+    .notification-body {
+      margin-bottom: 16px;
+    }
+    
+    .notification-body h4 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    
+    .notification-body p {
+      font-size: 16px;
+    }
+    
+    .notification-footer {
+      font-size: 14px;
+      color: #777;
+    }
+  
+    button {
+      background-color: #795B4A; ;
+    }
+  }
+  
+  
+  
+  

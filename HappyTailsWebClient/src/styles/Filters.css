@@ -1,0 +1,32 @@
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .filter-form {
+      display: flex;
+      align-items: center;
+
+      button {
+        width: max-content;
+        padding: 20px;
+        height: max-content;
+      }
+    }
+
+    label {
+      margin-right: 10px;
+    }
+    
+    input {
+      width: max-content;
+    }
+
+    .select  {
+      width: max-content;
+    }
+  }
+  
+
+  
+  

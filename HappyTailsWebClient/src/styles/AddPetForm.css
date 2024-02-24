@@ -1,0 +1,58 @@
+.addPetForm {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 70%;
+
+    input {
+        width: 70%;
+    }
+
+    textarea {
+        width: 70%;
+    }
+    
+    .gender-label {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+    }
+    
+    .gender-radio-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .actions {
+        display: flex;
+        gap: 15px;
+    }
+    
+    /* .submitBtn {
+        width: fit-content;
+        background-color: #795B4A;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    } */
+    
+    .uploadImage {
+        border: 1px dashed #795B4A;
+        padding: 5px;
+        background: #F8F4EF;
+        color: #795B4A;
+        width: 70%;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .error-message {
+        color: red;
+        font-size: smaller;
+    }
+}
