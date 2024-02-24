@@ -9,6 +9,8 @@ Welcome to the Pet Adoption Platform! This platform allows users to explore and 
 - Dashboard: Interactive dashboard where users can manage their profiles, view notifications, and access various sections such as adopting pets and viewing adoption requests.
 - Add Pets for Adoption: Users have the ability to add pets to the platform, providing details such as pet name, breed, age, gender, and description. These pets become available for adoption by other users.
 - Email Notifications: Automated email notifications for various actions such as account verification, password reset, and adoption requests.
+- User Authentication: Secure user authentication system allows users to sign up, log in, and reset their passwords.
+- Contact Us: Users can send messages to the company for questions, feedback, or inquiries. The feature includes a form where users can enter their message.
 # Technologies Used
 ## Client-Side
 - React.js: Frontend JavaScript library for building user interfaces
