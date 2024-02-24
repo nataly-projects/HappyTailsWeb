@@ -29,7 +29,7 @@ Welcome to the Pet Adoption Platform! This platform allows users to explore and 
 - Install dependencies for both client and server
 - Configure environment variables:
   For the server, create a .env file in the server directory and define the following variables:
-  - PORT=<port-number>
+  - PORT= <port-number>
   - EMAIL=<email>
   - EMAIL_PASSWORD=<email-password>
   - MONGO_USERNAME=<mongo-username>
