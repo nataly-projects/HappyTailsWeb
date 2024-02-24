@@ -30,9 +30,9 @@ Welcome to the Pet Adoption Platform! This platform allows users to explore and 
 - Configure environment variables:
   For the server, create a .env file in the server directory and define the following variables:
   - PORT=your-port-number
-  - EMAIL=<email>
-  - EMAIL_PASSWORD=<email-password>
-  - MONGO_USERNAME=<mongo-username>
-  - MONGO_PASSWORD=<mongo-password>
+  - EMAIL=your-email
+  - EMAIL_PASSWORD=your-email-password
+  - MONGO_USERNAME=your-mongo-username
+  - MONGO_PASSWORD=your-mongo-password
 
 The client will be served at http://localhost:3000 and the server will run at http://localhost:5001.
