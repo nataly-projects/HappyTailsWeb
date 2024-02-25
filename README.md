@@ -11,19 +11,6 @@ Welcome to the Pet Adoption Platform! This platform allows users to explore and 
 - Email Notifications: Automated email notifications for various actions such as account verification, password reset, and adoption requests.
 - User Authentication: Secure user authentication system allows users to sign up, log in, and reset their passwords.
 - Contact Us: Users can send messages to the company for questions, feedback, or inquiries. The feature includes a form where users can enter their message.
-# Technologies Used
-## Client-Side
-- React.js: Frontend JavaScript library for building user interfaces
-- React Router: For routing and navigation within the application
-- Redux: For state management
-- Axios: For making HTTP requests to the server
-- React Toastify: For displaying toast notifications
-## Server-Side
-- Node.js: JavaScript runtime for the server
-- Express.js: Web application framework for Node.js
-- MongoDB: NoSQL database for storing pet and user information
-- Mongoose: MongoDB object modeling for Node.js
-- Nodemailer: For sending emails for account verification and notifications
 # Getting Started
 ## Prerequisites
 - Node.js and npm installed on your machine
@@ -39,5 +26,19 @@ Welcome to the Pet Adoption Platform! This platform allows users to explore and 
   - EMAIL_PASSWORD=your-email-password
   - MONGO_USERNAME=your-mongo-username
   - MONGO_PASSWORD=your-mongo-password
-
 The client will be served at http://localhost:3000 and the server will run at http://localhost:5001.
+
+# Technologies Used
+## Client-Side
+- React.js: Frontend JavaScript library for building user interfaces
+- React Router: For routing and navigation within the application
+- Redux: For state management
+- Axios: For making HTTP requests to the server
+- React Toastify: For displaying toast notifications
+## Server-Side
+- Node.js: JavaScript runtime for the server
+- Express.js: Web application framework for Node.js
+- MongoDB: NoSQL database for storing pet and user information
+- Mongoose: MongoDB object modeling for Node.js
+- Nodemailer: For sending emails for account verification and notifications
+
