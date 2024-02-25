@@ -26,6 +26,7 @@ Welcome to the Pet Adoption Platform! This platform allows users to explore and 
   - EMAIL_PASSWORD=your-email-password
   - MONGO_USERNAME=your-mongo-username
   - MONGO_PASSWORD=your-mongo-password
+
 The client will be served at http://localhost:3000 and the server will run at http://localhost:5001.
 
 # Technologies Used
