@@ -6,10 +6,8 @@ import PetList from '../components/PetList';
 import '../styles/CategoryDetailsPage.css';
 
 const CategoryDetailsPage = ({categoryName, setSelectedCategory}) => {
-    console.log(categoryName);
     const [pets, setPets] = useState([]);
     const userId = useSelector((state) => state.userId);
-console.log(userId);
 
   const handleBackButtonClick = () => {
     setSelectedCategory(null);
